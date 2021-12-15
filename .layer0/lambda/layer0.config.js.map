@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../layer0.config.js"],
+  "sourcesContent": ["module.exports = {\n  routes: './routes.js',\n  connector: './layer0',\n  backends: {\n    origin: {\n      domainOrIp: 'layer0.co',\n      hostHeader: 'layer0.co',\n    },\n  },\n};\n"],
+  "mappings": "AAAA,OAAO,QAAU,CACf,OAAQ,cACR,UAAW,WACX,SAAU,CACR,OAAQ,CACN,WAAY,YACZ,WAAY",
+  "names": []
+}

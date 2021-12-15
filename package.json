@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "name": "nuxt3-fresh-app",
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "start": "node .output/server/index.mjs",
+    "layer0:dev": "layer0 dev",
+    "layer0:build": "layer0 build",
+    "layer0:deploy": "layer0 deploy"
+  },
+  "devDependencies": {
+    "@layer0/devtools": "^4.7.0",
+    "@layer0/prefetch": "^4.7.0",
+    "nuxt3": "latest"
+  },
+  "dependencies": {
+    "@layer0/cli": "^4.7.0",
+    "@layer0/core": "^4.7.0"
+  }
+}

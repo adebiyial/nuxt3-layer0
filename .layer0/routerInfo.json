@@ -1,0 +1,13 @@
+{
+   "location": "./routes.js",
+   "info": [
+      {
+         "criteria": {
+            "method": "get",
+            "path": "/_nuxt/:path*"
+         },
+         "line": 4,
+         "column": 3
+      }
+   ]
+}
